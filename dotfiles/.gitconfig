@@ -1,0 +1,11 @@
+[user]
+	name = "Benson Joseph"
+	email = benson.joseph@outlook.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE

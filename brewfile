@@ -1,0 +1,36 @@
+tap "caskroom/fonts"
+tap "caskroom/versions"
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "microsoft/mssql-release"
+cask "adoptopenjdk8"
+brew "bash"
+brew "bash-git-prompt"
+brew "caddy"
+brew "cask"
+brew "docker", link: false
+brew "docker-compose", link: false
+brew "docker-machine"
+brew "elasticsearch", restart_service: true
+brew "git"
+brew "libxml2"
+brew "postgresql", restart_service: true
+brew "postgresql@11"
+brew "qt", link: true
+brew "redis", restart_service: true
+brew "tree"
+brew "vcprompt"
+brew "zsh"
+cask "azure-data-studio"
+cask "docker"
+cask "google-chrome"
+cask "iterm2"
+cask "java"
+cask "microsoft-remote-desktop-beta"
+cask "pgadmin4"
+cask "postman"
+cask "the-unarchiver"
+cask "visual-studio-code"
